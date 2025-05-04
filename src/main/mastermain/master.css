@@ -1,0 +1,18 @@
+#master-box{
+    padding: 3%;
+    padding-top: 10%;
+}
+
+#box2{
+    border: 1px solid white;
+    transform: translateY(-40%);
+    display: flex;
+    >span{
+        border: 1px solid white;
+        width: 15%;
+        height: 100%;
+    }
+}
+.onther-box{
+    border: 1px solid white;
+}

@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(18, 64, 38);
+  font-family: "Spectral", serif;
+  font-style: normal;
+}

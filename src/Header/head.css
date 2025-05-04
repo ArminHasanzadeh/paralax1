@@ -1,0 +1,78 @@
+.head{
+    border-bottom: 1px solid white;
+    ul{
+        li{
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            width: 25%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+            &:hover{
+                    color: black;
+                    background-color: white;
+                
+            }
+
+        }
+    }
+}
+
+
+@keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  }
+  
+  .animate-slideDown {
+    animation: slideDown 0.4s ease-out forwards;
+  }
+  
+  .animate-slideUp {
+    animation: slideUp 0.4s ease-in forwards;
+  }
+  .BoxMenu{
+    >div{
+        border: 2px solid #124026;
+    }
+  }
+  .Croxx{
+    border-left: 2px solid #124026;
+  }
+  .CloseBox{
+    border: 2px solid #124026;
+  }
+  .MasterBox{
+    color: #124026;
+    background: rgb(209, 209, 209);
+  }
+  .FirstBox-Menu{
+    color: rgb(209, 209, 209);
+    background: #124026 ;
+  }
+  .MySmall-Box-Menu{
+    >div{
+        width: 5%;
+        height: 100%;
+        border-left: 1px solid #124026;
+    }
+  }
