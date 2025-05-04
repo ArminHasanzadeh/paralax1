@@ -18,7 +18,7 @@ footer{
         color: #d9d9d9 ;
         margin-top: 1rem;
         
-        width: 64%;
+        width: fit-content;
         height: 50%;
     }
 }
@@ -34,6 +34,7 @@ footer{
         height: 50%;
         font-size: 0.8rem;
         >p{
+            width: fit-content;
             color: #d9d9d9;
         }
     }
@@ -61,5 +62,25 @@ footer{
         >p{
             color: #d9d9d9;
         }
+    }
+}
+.MobileFooter{
+    border: 1px solid white;
+}
+.MobileLogo{
+    border-bottom: 1px solid white;
+}
+.MobileFooter-Box4{
+    >a{
+        border-bottom: 1px solid rgba(255, 255, 255, 0);
+        transition: 0.3s;
+        
+        &:hover{
+            border-bottom: 1px solid white;
+        }
+
+    }
+    >p{
+        cursor: pointer;
     }
 }

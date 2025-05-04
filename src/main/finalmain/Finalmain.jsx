@@ -11,9 +11,9 @@ import './finalmain.css'
 function Finalmain() {
     return (
        <>
-       <section className='w-[100%] lg:h-[50vh]   flex justify-center items-center'>
+       <section className='w-[100%] lg:h-[50vh]   flex justify-center items-center mb-44!'>
         <div className=' w-[90%] h-[80%] lg:flex-row flex-col  flex'>
-        <div className='mainsec lg:w-[70%] h-[100%] '>
+        <div className='mainsec lg:w-[70%] h-[100%]  '>
             <div className='text1 w-[100%] h-[20%] flex justify-start items-center text-4xl text-white '><p>OUR SERVICES</p></div>
             <div className='text2 w-[80%] h-[80%] flex justify-start items-center text-2xl text-white '><p>As landscaping specialists, we offer everything from innovative designs to the complete construction of gardens or terraces that reflect your style and adapt to your needs. We also provide comprehensive gardening services: pruning, plot cleaning, technical advice, periodic maintenance of terraces and gardens, installation of automatic irrigation systems, installation of natural and artificial grass, and more.</p></div>
         </div>

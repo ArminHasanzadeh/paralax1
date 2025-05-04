@@ -21,9 +21,7 @@
 }
 .mainsec{
     border: 1px solid white;
-    >div{
-        
-    }
+    
 }
 .text1{
     padding-left: 10% !important;
@@ -36,13 +34,13 @@
     
     >figure{
 
-        height: 100%;
+        height: 95%;
         transition: 0.5s;
         
         >span{
            opacity: 0;
             color: white;
-            transform: translateY(-1100);
+            transform: translateY(0);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -57,7 +55,7 @@
              background-color: rgb(40, 136, 81);
             >span{
                 opacity: 1;
-                transform: translateY(-1200%);
+                transform: translateY(-1000%);
             }
             >img{
                 opacity: 0;

@@ -16,3 +16,45 @@
 .onther-box{
     border: 1px solid white;
 }
+/* master.css */
+@media (min-width: 768px) {
+    #box2 {
+      transform: translateY(-40%);
+    }
+  }
+  #box2 {
+    border: 1px solid white;
+    transform: translateY(-40%);
+    display: flex;
+  }
+  
+  #box2 > span {
+    border: 1px solid white;
+    width: 15%;
+    height: 100%;
+  }
+  
+  /* حالت موبایل */
+  @media (max-width: 768px) {
+    #box2 {
+      border: none; /* حذف بردر باکس روی موبایل */
+    }
+  
+    #box2 > span {
+      display: none; /* پنهان‌سازی اسپن‌ها روی موبایل */
+    }
+  }
+  #box1 .onther-box {
+    border: 1px solid white;
+  }
+  
+  /* حالت موبایل */
+  @media (max-width: 768px) {
+    #box1 .onther-box {
+      border: none;
+    }
+  }
+  
+  
+  
+  
