@@ -56,7 +56,7 @@ const Footer = () => {
               </p>
               <p className="barcelona w-[100%] flex-col flex overflow-hidden">
                 (+34) 932 030 839
-                <span className="border-b-2 w-[80%] h-[1px]"></span>
+                <span className="border-b-2 w-[100%] h-[1px]"></span>
               </p>
             </div>
             <div>
@@ -66,7 +66,7 @@ const Footer = () => {
               </p>
               <p className="barcelona w-[100%] flex-col flex overflow-hidden">
                 (+34) 932 805 495{" "}
-                <span className="border-b-2 w-[80%] h-[1px]"></span>
+                <span className="border-b-2 w-[100%] h-[1px]"></span>
               </p>
             </div>
           </div>
